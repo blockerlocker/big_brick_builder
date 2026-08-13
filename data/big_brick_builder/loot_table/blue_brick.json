@@ -1,0 +1,39 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "modifier": [
+                        {
+                            "type": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_model": "player_head",
+                                "minecraft:profile": {
+                                    "texture": "block/blue_shulker_box"
+                                },
+                                "minecraft:item_name": "Blue Brick (2x2x2)",
+                                "minecraft:rarity": "epic"
+                            }
+                        },
+                        {
+                            "type": "minecraft:set_custom_data",
+                            "tag": {
+                                "big_brick_builder": {
+                                    "color": "blue",
+                                    "shape": [
+                                        2,
+                                        2,
+                                        2
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
