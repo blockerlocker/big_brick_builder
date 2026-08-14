@@ -2,7 +2,7 @@ Made for 26.3
 
 This data pack lets you easily build with large toy building bricks made from concrete and concrete stairs. Placement and breaking logic makes the process mostly seamless, so no manual stair orientation is necessary. The result is a completely vanilla survival friendly build, it just makes the creative design process much simpler for this one very specific niche building style.
 
-If you hold the Sprint key while pick-blocking concrete or concrete stairs, you will instead receive a building brick.
+If you hold the Sprint key while pick-blocking concrete or concrete stairs, you will instead receive a building brick. If you already have that color of concrete or concrete stairs in your hotbar, it might not actually work properly, is internally it requires the contents of your inventory to change in order to be triggered.
 
 | Command | Description |
 | --- | --- |
