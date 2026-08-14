@@ -1,0 +1,1 @@
+$loot replace entity @s weapon.mainhand loot big_brick_builder:$(color)_brick

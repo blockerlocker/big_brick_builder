@@ -1,0 +1,49 @@
+{
+    "criteria": {
+        "pickblock": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:any_of",
+                    "terms": [
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:equipment": {
+                                    "mainhand": {
+                                        "items": "#minecraft:concrete"
+                                    }
+                                },
+                                "minecraft:type_specific/player": {
+                                    "input": {
+                                        "sprint": true
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:equipment": {
+                                    "mainhand": {
+                                        "items": "#concrete_stairs"
+                                    }
+                                },
+                                "minecraft:type_specific/player": {
+                                    "input": {
+                                        "sprint": true
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "big_brick_builder:pickblock/main"
+    }
+}

@@ -2,6 +2,8 @@ Made for 26.3
 
 This data pack lets you easily build with large toy building bricks made from concrete and concrete stairs. Placement and breaking logic makes the process mostly seamless, so no manual stair orientation is necessary. The result is a completely vanilla survival friendly build, it just makes the creative design process much simpler for this one very specific niche building style.
 
+If you hold the Sprint key while pick-blocking concrete or concrete stairs, you will instead receive a building brick.
+
 | Command | Description |
 | --- | --- |
 | `/function big_brick_builder:quick_picker` | Displays a menu in chat that allows you to easily select a brick to build with. |
