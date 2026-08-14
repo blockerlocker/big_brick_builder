@@ -1,4 +1,4 @@
-tellraw @s [{text:"Big Brick Quick Picker: Click an icon below to get a brick!\n",color:green},\
+tellraw @s ["",{text:"Big Brick Quick Picker: Click an icon below to get a brick!\n",color:green},\
 {atlas:'map_decorations',sprite:'player_off_map',color:"#F9FFFE",click_event:{action:run_command,command:"loot give @s loot big_brick_builder:white_brick"},hover_event:{action:"show_text",value:{text:"White Brick",color:yellow}}},\
 {atlas:'map_decorations',sprite:'player_off_map',color:"#9D9D97",click_event:{action:run_command,command:"loot give @s loot big_brick_builder:light_gray_brick"},hover_event:{action:"show_text",value:{text:"Light Gray Brick",color:yellow}}},\
 {atlas:'map_decorations',sprite:'player_off_map',color:"#474F52",click_event:{action:run_command,command:"loot give @s loot big_brick_builder:gray_brick"},hover_event:{action:"show_text",value:{text:"Gray Brick",color:yellow}}},\
@@ -14,5 +14,6 @@ tellraw @s [{text:"Big Brick Quick Picker: Click an icon below to get a brick!\n
 {atlas:'map_decorations',sprite:'player_off_map',color:"#3C44AA",click_event:{action:run_command,command:"loot give @s loot big_brick_builder:blue_brick"},hover_event:{action:"show_text",value:{text:"Blue Brick",color:yellow}}},\
 {atlas:'map_decorations',sprite:'player_off_map',color:"#8932B8",click_event:{action:run_command,command:"loot give @s loot big_brick_builder:purple_brick"},hover_event:{action:"show_text",value:{text:"Purple Brick",color:yellow}}},\
 {atlas:'map_decorations',sprite:'player_off_map',color:"#C74EBD",click_event:{action:run_command,command:"loot give @s loot big_brick_builder:magenta_brick"},hover_event:{action:"show_text",value:{text:"Magenta Brick",color:yellow}}},\
-{atlas:'map_decorations',sprite:'player_off_map',color:"#F38BAA",click_event:{action:run_command,command:"loot give @s loot big_brick_builder:pink_brick"},hover_event:{action:"show_text",value:{text:"Pink Brick",color:yellow}}}\
+{atlas:'map_decorations',sprite:'player_off_map',color:"#F38BAA",click_event:{action:run_command,command:"loot give @s loot big_brick_builder:pink_brick"},hover_event:{action:"show_text",value:{text:"Pink Brick",color:yellow}}},\
+{atlas:'items',sprite:'item/bundle',click_event:{action:run_command,command:"loot give @s loot big_brick_builder:all_bricks"},hover_event:{action:"show_text",value:{text:"All Bricks",color:yellow}}}\
 ]
