@@ -1,0 +1,52 @@
+{
+    "criteria": {
+        "use_brick": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:any_of",
+                    "terms": [
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:equipment": {
+                                    "mainhand": {
+                                        "items": "minecraft:item_frame",
+                                        "predicates": {
+                                            "minecraft:custom_data": {
+                                                "big_brick_builder": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:equipment": {
+                                    "mainhand": {
+                                        "count": 0
+                                    },
+                                    "offhand": {
+                                        "items": "minecraft:item_frame",
+                                        "predicates": {
+                                            "minecraft:custom_data": {
+                                                "big_brick_builder": {}
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "big_brick_builder:brick/use"
+    }
+}

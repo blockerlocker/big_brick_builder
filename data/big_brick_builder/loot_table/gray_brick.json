@@ -12,9 +12,9 @@
                             "components": {
                                 "minecraft:item_model": "player_head",
                                 "minecraft:profile": {
-                                    "texture": "block/blue_shulker_box"
+                                    "texture": "block/gray_shulker_box"
                                 },
-                                "minecraft:item_name": "Blue Brick",
+                                "minecraft:item_name": "Gray Brick",
                                 "minecraft:rarity": "epic",
                                 "minecraft:entity_data": {
                                     "id": "item_frame",
@@ -29,7 +29,7 @@
                             "type": "minecraft:set_custom_data",
                             "tag": {
                                 "big_brick_builder": {
-                                    "color": "blue"
+                                    "color": "gray"
                                 }
                             }
                         },
