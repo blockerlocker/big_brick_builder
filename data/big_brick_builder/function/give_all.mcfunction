@@ -1,0 +1,1 @@
+loot give @s loot big_brick_builder:all_bricks
