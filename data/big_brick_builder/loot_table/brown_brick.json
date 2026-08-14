@@ -14,7 +14,7 @@
                                 "minecraft:profile": {
                                     "texture": "block/brown_shulker_box"
                                 },
-                                "minecraft:item_name": "Brown Brick",
+                                "minecraft:item_name": "Brown Building Brick",
                                 "minecraft:rarity": "epic",
                                 "minecraft:entity_data": {
                                     "id": "item_frame",

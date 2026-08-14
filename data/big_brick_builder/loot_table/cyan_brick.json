@@ -14,7 +14,7 @@
                                 "minecraft:profile": {
                                     "texture": "block/cyan_shulker_box"
                                 },
-                                "minecraft:item_name": "Cyan Brick",
+                                "minecraft:item_name": "Cyan Building Brick",
                                 "minecraft:rarity": "epic",
                                 "minecraft:entity_data": {
                                     "id": "item_frame",

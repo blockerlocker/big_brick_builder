@@ -14,7 +14,7 @@
                                 "minecraft:profile": {
                                     "texture": "block/purple_shulker_box"
                                 },
-                                "minecraft:item_name": "Purple Brick",
+                                "minecraft:item_name": "Purple Building Brick",
                                 "minecraft:rarity": "epic",
                                 "minecraft:entity_data": {
                                     "id": "item_frame",
