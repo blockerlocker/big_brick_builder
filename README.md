@@ -6,7 +6,7 @@ If you hold the Sprint key while pick-blocking concrete or concrete stairs, you 
 
 | Command | Description |
 | --- | --- |
-| `/function big_brick_builder:quick_picker` | Displays a menu in chat that allows you to easily select a brick to build with. |
-| `/function big_brick_builder:give_all` | A shorthand function for quickly getting every brick. |
-| `/loot give @s loot big_brick_builder:<color>_brick` | Give yourself a specific color of brick directly. |
+| `/function big_brick_builder:quick_picker` | Displays a menu in chat that allows you to easily select a building brick to build with. |
+| `/function big_brick_builder:give_all` | A shorthand function for quickly getting every building brick. |
+| `/loot give @s loot big_brick_builder:<color>_brick` | Give yourself a specific color of building brick directly. |
 | `/kill @e[type=marker,tag=big_brick_builder]` | Remove all hidden Marker entities that make the data pack function. Obviously you want to wait to do this until you're completely done building, because it basically disables all existing bricks in the world from working with this pack. This is mainly meant for clearing these Markers when exporting as a schematic for other purposes. |
