@@ -1,1 +1,1 @@
-execute as @e[type=marker,tag=big_brick_builder] at @s unless block ~ ~ ~ #concrete_stairs unless block ~ ~ ~ #concrete run function big_brick_builder:brick/break/main
+execute as @e[type=marker,tag=big_brick_builder] at @s run function big_brick_builder:brick/break/main
