@@ -2,6 +2,6 @@
   "pack": {
     "description": "Build big bricks.",
     "min_format": 116,
-    "max_format": 116
+    "max_format": 117
   }
 }
