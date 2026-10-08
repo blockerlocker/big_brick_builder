@@ -1,6 +1,6 @@
 kill @s
 
-playsound minecraft:block.deepslate_bricks.place block @a ~ ~ ~ 10 1.5
+playsound minecraft:block.ice.place block @a ~ ~ ~ 10 0.8
 
 execute positioned ^ ^ ^-0.5 if block ~ ~ ~ #concrete_stairs run return run function big_brick_builder:brick/test/stairs
 execute if block ~ ~ ~ #concrete_stairs run return run function big_brick_builder:brick/test/stairs
