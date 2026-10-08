@@ -1,4 +1,4 @@
-Made for 26.3
+Made for 26.4
 
 This data pack lets you easily build with large toy building bricks made from concrete and concrete stairs. Placement and breaking logic makes the process mostly seamless, so no manual stair orientation is necessary. The result is a completely vanilla survival friendly build, it just makes the creative design process much simpler for this one very specific niche building style.
 
